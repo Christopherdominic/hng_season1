@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#goals {
+    margin-top: 2em;
+}
+
+#time-info {
+    margin-top: 2em;
+}
+
+#links a {
+    display: block;
+    margin-top: 1em;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
